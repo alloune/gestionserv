@@ -20,7 +20,7 @@ jobs:
           PASSPHRASE: ${{ secrets.PASSPHRASE }}
         with:
           source: "."
-          target: "/var/www/php_course"
+          target: "/var/www/allan-personal-trainer.fr"
 
       - name: Executing remote command
         uses: appleboy/ssh-action@master
